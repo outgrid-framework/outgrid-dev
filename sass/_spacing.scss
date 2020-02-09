@@ -131,6 +131,110 @@ $spacing: 0.5;
 }
 
 @media screen and (min-width: $break-medium) {
+  @for $i from 0 through 5 {
+    .gg-md-#{$i} {
+      gap: $i*$spacing*1rem;
+    }
+  
+    .cg-md-#{$i} {
+      column-gap: $i*$spacing*1rem;
+    }
+  
+    .rg-md-#{$i} {
+      row-gap: $i*$spacing*1rem;
+    }
+  
+    .p-md-#{$i} {
+      padding: $i*$spacing*1rem;
+    }
+  
+    .px-md-#{$i} {
+      padding-left: $i*$spacing*1rem;
+      padding-right: $i*$spacing*1rem;
+    }
+  
+    .py-md-#{$i} {
+      padding-top: $i*$spacing*1rem;
+      padding-bottom: $i*$spacing*1rem;
+    }
+  
+    .pt-md-#{$i} {
+      padding-top: $i*$spacing*1rem;
+    }
+  
+    .pr-md-#{$i} {
+      padding-right: $i*$spacing*1rem;
+    }
+  
+    .pb-md-#{$i} {
+      padding-bottom: $i*$spacing*1rem;
+    }
+  
+    .pl-md-#{$i} {
+      padding-left: $i*$spacing*1rem;
+    }
+  
+    .m-md-#{$i} {
+      margin: $i*$spacing*1rem;
+    }
+  
+    .mx-md-#{$i} {
+      margin-left: $i*$spacing*1rem;
+      margin-right: $i*$spacing*1rem;
+    }
+  
+    .my-md-#{$i} {
+      margin-top: $i*$spacing*1rem;
+      margin-bottom: $i*$spacing*1rem;
+    }
+  
+    .mt-md-#{$i} {
+      margin-top: $i*$spacing*1rem;
+    }
+  
+    .mr-md-#{$i} {
+      margin-right: $i*$spacing*1rem;
+    }
+  
+    .mb-md-#{$i} {
+      margin-bottom: $i*$spacing*1rem;
+    }
+  
+    .ml-md-#{$i} {
+      margin-left: $i*$spacing*1rem;
+    }
+  
+    .m-md-n#{$i} {
+      margin: -$i*$spacing*1rem;
+    }
+  
+    .mx-md-n#{$i} {
+      margin-left: -$i*$spacing*1rem;
+      margin-right: -$i*$spacing*1rem;
+    }
+  
+    .my-md-n#{$i} {
+      margin-top: -$i*$spacing*1rem;
+      margin-bottom: -$i*$spacing*1rem;
+    }
+  
+    .mt-md-n#{$i} {
+      margin-top: -$i*$spacing*1rem;
+    }
+  
+    .mr-md-n#{$i} {
+      margin-right: -$i*$spacing*1rem;
+    }
+  
+    .mb-md-n#{$i} {
+      margin-bottom: -$i*$spacing*1rem;
+    }
+  
+    .ml-md-n#{$i} {
+      margin-left: -$i*$spacing*1rem;
+    }
+  }
+
   .m-md-auto {
     margin: auto;
   }
@@ -147,6 +251,110 @@ $spacing: 0.5;
 }
 
 @media screen and (min-width: $break-large) {
+  @for $i from 0 through 5 {
+    .gg-lg-#{$i} {
+      gap: $i*$spacing*1rem;
+    }
+  
+    .cg-lg-#{$i} {
+      column-gap: $i*$spacing*1rem;
+    }
+  
+    .rg-lg-#{$i} {
+      row-gap: $i*$spacing*1rem;
+    }
+  
+    .p-lg-#{$i} {
+      padding: $i*$spacing*1rem;
+    }
+  
+    .px-lg-#{$i} {
+      padding-left: $i*$spacing*1rem;
+      padding-right: $i*$spacing*1rem;
+    }
+  
+    .py-lg-#{$i} {
+      padding-top: $i*$spacing*1rem;
+      padding-bottom: $i*$spacing*1rem;
+    }
+  
+    .pt-lg-#{$i} {
+      padding-top: $i*$spacing*1rem;
+    }
+  
+    .pr-lg-#{$i} {
+      padding-right: $i*$spacing*1rem;
+    }
+  
+    .pb-lg-#{$i} {
+      padding-bottom: $i*$spacing*1rem;
+    }
+  
+    .pl-lg-#{$i} {
+      padding-left: $i*$spacing*1rem;
+    }
+  
+    .m-lg-#{$i} {
+      margin: $i*$spacing*1rem;
+    }
+  
+    .mx-lg-#{$i} {
+      margin-left: $i*$spacing*1rem;
+      margin-right: $i*$spacing*1rem;
+    }
+  
+    .my-lg-#{$i} {
+      margin-top: $i*$spacing*1rem;
+      margin-bottom: $i*$spacing*1rem;
+    }
+  
+    .mt-lg-#{$i} {
+      margin-top: $i*$spacing*1rem;
+    }
+  
+    .mr-lg-#{$i} {
+      margin-right: $i*$spacing*1rem;
+    }
+  
+    .mb-lg-#{$i} {
+      margin-bottom: $i*$spacing*1rem;
+    }
+  
+    .ml-lg-#{$i} {
+      margin-left: $i*$spacing*1rem;
+    }
+  
+    .m-lg-n#{$i} {
+      margin: -$i*$spacing*1rem;
+    }
+  
+    .mx-lg-n#{$i} {
+      margin-left: -$i*$spacing*1rem;
+      margin-right: -$i*$spacing*1rem;
+    }
+  
+    .my-lg-n#{$i} {
+      margin-top: -$i*$spacing*1rem;
+      margin-bottom: -$i*$spacing*1rem;
+    }
+  
+    .mt-lg-n#{$i} {
+      margin-top: -$i*$spacing*1rem;
+    }
+  
+    .mr-lg-n#{$i} {
+      margin-right: -$i*$spacing*1rem;
+    }
+  
+    .mb-lg-n#{$i} {
+      margin-bottom: -$i*$spacing*1rem;
+    }
+  
+    .ml-lg-n#{$i} {
+      margin-left: -$i*$spacing*1rem;
+    }
+  }
+  
   .m-lg-auto {
     margin: auto;
   }
